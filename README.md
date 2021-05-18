@@ -1,4 +1,5 @@
 # Animefy
+A discord bot to animefy or cartoonize your images.
 Developers : Srinivasa Raghavan S , Abhijnya , Jaaswin D Kotian
 
 Download both the files into a folder
