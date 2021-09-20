@@ -39,6 +39,10 @@ async def on_message(message):
     if message.content.startswith('>help'):
         message2='This bot is currently in development, '+str(message.author)[:-5]+'.The commands availabe are >hi , >click a pic'
         await message.channel.send('{}'.format(message2))
+    if 'anime' in message.content:
+        await message.channel.send("Roses are red,violets are blue,try out this bot,so that your eyes shine with the animefy hue")
+   # if 'anime' in message.content:
+    #  await message.channel.send("you'll surely love this bot,don't forget to give it a try")
     
     
 
